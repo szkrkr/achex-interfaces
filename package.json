@@ -1,8 +1,13 @@
 {
   "name": "achex-interfaces",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interfaces for ACHEX (https://achex.ca/)",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
   "scripts": {
     "local": "ts-node-dev --respawn src/index.ts",
     "clean": "rimraf dist/*",
